@@ -5,9 +5,9 @@ export default function Pokedex() {
   const navigate = useNavigate();
 
   return (
-    <div>
-        <header className="header">
-      <button onClick={() => goToHomePage(navigate)}>Voltar para Home</button>
+    <div className="fundo">
+      <header className="header">
+        <button className="btn" onClick={() => goToHomePage(navigate)}>Voltar para Home</button>
       </header>
     </div>
   );

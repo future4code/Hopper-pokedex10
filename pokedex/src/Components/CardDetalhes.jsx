@@ -2,12 +2,12 @@ import React from "react";
 
 export default function cardPokemon() {
   return (
-    <div>
-      <div>
-        <p>Imagem frontal</p>
-        <p>Imagem de costas</p>
+    <div className="containerDetalhes">
+      <div className="containerImagens">
+        <div className="containerImg">foto frontal<img src="frontal" alt="" /></div>
+        <div className="containerImg">foto traseira<img src="costas" alt="" /></div>
       </div>
-      <div>
+      <div className="containerPoderes">
         <h1>Poderes</h1>
         <p>hp: (numero)</p>
         <p>attack: (numero)</p>
@@ -16,10 +16,14 @@ export default function cardPokemon() {
         <p>special-defense:(numero)</p>
         <p>speed:(numero)</p>
       </div>
-      <p>TIPO</p>
       <div>
-        <h2>Principais Ataques</h2>
-        <p>(ataques)</p>
+        <div className="tipos">
+          <p>TIPO</p>
+        </div>
+        <div className="movimentos">
+          <h2>Principais Ataques</h2>
+          <p>(ataques)</p>
+        </div>
       </div>
     </div>
   );
