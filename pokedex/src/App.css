@@ -1,9 +1,11 @@
 .header {
   background-color: rgb(49, 54, 52);
-  height: 88px;
+  height: 133px;
   display: flex;
-  justify-content: space-around;
+  justify-content:space-between;
   align-items: center;
+  box-shadow: inset 0 0 1em rgb(161, 6, 122), 0 0 1em rgb(255, 255, 255);
+  border-bottom:solid white 1px ;
 }
 .btn{
 background-color: transparent;
@@ -11,8 +13,10 @@ width: 166px;
 height: 66px;
 font-size: 14pt ;
 color: white;
-border-radius: 8%;
-border: 4px solid white;
+
+
+box-shadow: inset 0 0 1em rgb(161, 6, 122), 0 0 1em rgb(255, 255, 255);
+  border:solid white 3px ;
 }
 .btn:hover{
   border-color: white;
@@ -27,6 +31,7 @@ border: 4px solid white;
   background-image: linear-gradient( rgb(126, 9, 42),rgb(65, 5, 42));
   color: white;
 }
+
 .containerDetalhes{
 display: flex;
 flex-direction: row;
@@ -34,6 +39,9 @@ justify-content: space-around;
 align-items: center;
 text-align: center;
 }
+
+.alignCenter{text-align: left;
+margin-left: 35px;}
 
 .containerImg{
 width: 211px;
@@ -44,12 +52,26 @@ margin-top: 23px;
 .containerImagens{
   padding: 5px;
   margin: 35px;
+  
 }
+.containerImg:hover{
+  box-shadow: inset 0 0 1em rgb(161, 6, 122), 0 0 1em rgb(255, 255, 255);
+border:double white 7px ;
+  background-color: white;
+  width: 311px;
+  height: 311px;
+  color:brown; }
 .containerPoderes{
   width: 333px;
   height: 457px;
   border: solid 3px white;
   margin-top: 23px;
+  }
+  .containerPoderes:hover{
+    box-shadow: inset 0 0 1em rgb(161, 6, 122), 0 0 1em rgb(255, 255, 255);
+  border:double white 7px ;
+    background-color: white;
+    color:brown;
   }
   .tipos{
     width: 222px;
@@ -57,10 +79,82 @@ margin-top: 23px;
     border: solid 3px white;
    
   }
-
+  .tipos:hover{
+    box-shadow: inset 0 0 1em rgb(161, 6, 122), 0 0 1em rgb(255, 255, 255);
+  border:double white 7px ;
+    background-color: white;
+    color:brown; }
   .movimentos {
     height: 377px;
     border: solid 3px white;
     width: 222px;
     margin-top: 18px;
+  }
+  .movimentos:hover{
+    box-shadow: inset 0 0 1em rgb(161, 6, 122), 0 0 1em rgb(255, 255, 255);
+  border:double white 7px ;
+    background-color: white;
+    color:brown; }
+.fundo2{
+  background-image: linear-gradient( rgb(126, 9, 42),rgb(65, 5, 42));
+  color: white;
+  
+  background-color: white ;
+  opacity: 1;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  width: 85%;
+  height: 85%;
+  margin: 7%;
+  
+}
+
+  .cardFilho{
+    width: 266px;
+    background-color: white;
+    border:solid rgb(255, 255, 255) 7px ;
+    height: 311px;
+    margin: 33px;
+    opacity:1;
+    box-shadow: inset 0 0 1em rgb(161, 6, 122), 0 0 1em rgb(255, 255, 255);
+  }
+  .Card{
+    width: 255px;
+    border:solid rgb(255, 255, 255) 7px ;
+    height: 255px;
+    opacity:1; 
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    border:double rgb(255, 255, 255) 7px ;
+    box-shadow: inset 0 0 1em rgb(161, 6, 122), 0 0 1em rgb(87, 78, 78);
+  }
+  .imgCard{
+    border:double rgb(255, 255, 255) 7px ;
+    height: 244px;
+    width: 244px;
+  
+  }
+  .containerBtn{
+    display: flex;
+    justify-content: center;
+
+    width: 255px;
+    height: 28px;
+    border:double rgb(255, 255, 255) 7px ;
+  }
+  .btnCard{
+    width: 127px;
+    background-color: transparent;
+    color:rgb(126, 9, 42)
+  }
+  .btnCard:hover{
+    border-color: white;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(45deg, rgb(126, 9, 42), rgb(231, 14, 231));
+  }
+  .btnCard:active{
+    background-color: white;
+    border: solid 5px;
+    color: rgb(0, 0, 0);
   }
