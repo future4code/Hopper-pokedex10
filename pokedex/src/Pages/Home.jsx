@@ -9,8 +9,8 @@ import { baseURL } from "../Components/constant";
 
 export default function Home() {
   const [pokemons, setPokemons] = useState([]);
-  /* const { id } = useParams();
-  const [pokemonsDetails, setPokemonsDet] = useRequestData(`/${id}`) */
+   const { id } = useParams();
+  const [pokemonsDetails, setPokemonsDet] = useRequestData(`/${id}`) 
   const navigate = useNavigate();
 
   useEffect(() => {
