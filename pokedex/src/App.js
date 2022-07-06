@@ -1,11 +1,12 @@
 import { Rotas } from './Routes/routes';
 import './App.css';
+import { GlobalState } from './Global/GlobalStates';
 
 function App() {
   return (
-    <div >
+    <GlobalState >
      <Rotas/>
-    </div>
+    </GlobalState>
   );
 }
 
