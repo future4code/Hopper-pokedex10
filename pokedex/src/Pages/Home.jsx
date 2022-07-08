@@ -35,7 +35,7 @@ export default function Home() {
           Ver minha POKEDEX
         </button>
         <div className="alignCenter">
-          <h1>LISTA DE POKEMONS</h1>
+          <h1> LISTA DE POKEMONS </h1>
         </div>
       </header>
       <div className="fundo2">
